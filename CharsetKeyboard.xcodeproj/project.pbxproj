@@ -8,12 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		11699988229A8BAC005F09D7 /* CharsetKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 11699986229A8BAC005F09D7 /* CharsetKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11699992229A8CBC005F09D7 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11699990229A8CBC005F09D7 /* Keyboard.swift */; };
+		11699993229A8CBC005F09D7 /* KeyboardInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11699991229A8CBC005F09D7 /* KeyboardInstance.swift */; };
+		11699998229A8CF6005F09D7 /* ButtonEnabler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11699995229A8CF6005F09D7 /* ButtonEnabler.swift */; };
+		11699999229A8CF6005F09D7 /* LayoutCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11699996229A8CF6005F09D7 /* LayoutCalculator.swift */; };
+		1169999A229A8CF6005F09D7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11699997229A8CF6005F09D7 /* Common.swift */; };
+		116999A1229A8D21005F09D7 /* DeleteButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1169999D229A8D20005F09D7 /* DeleteButtonCell.xib */; };
+		116999A2229A8D21005F09D7 /* CharButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1169999E229A8D20005F09D7 /* CharButtonCell.swift */; };
+		116999A3229A8D21005F09D7 /* CharButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1169999F229A8D20005F09D7 /* CharButtonCell.xib */; };
+		116999A4229A8D21005F09D7 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116999A0229A8D21005F09D7 /* ButtonCell.swift */; };
+		116999A7229A8D30005F09D7 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116999A5229A8D30005F09D7 /* KeyboardView.swift */; };
+		116999A8229A8D30005F09D7 /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116999A6229A8D30005F09D7 /* Keyboard.xib */; };
+		116999AD229A8D52005F09D7 /* KeyboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116999AA229A8D52005F09D7 /* KeyboardViewModel.swift */; };
+		116999AE229A8D52005F09D7 /* CharButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116999AB229A8D52005F09D7 /* CharButtonViewModel.swift */; };
+		116999AF229A8D52005F09D7 /* DeleteButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116999AC229A8D52005F09D7 /* DeleteButtonViewModel.swift */; };
+		116999B3229A8E40005F09D7 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 116999B2229A8E40005F09D7 /* Cartfile */; };
+		116999B7229A8F21005F09D7 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116999B5229A8F21005F09D7 /* ReactiveSwift.framework */; };
+		116999B8229A8F21005F09D7 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116999B6229A8F21005F09D7 /* Result.framework */; };
+		116999BB229A90B9005F09D7 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116999BA229A90B9005F09D7 /* ReactiveCocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11699983229A8BAC005F09D7 /* CharsetKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CharsetKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11699986229A8BAC005F09D7 /* CharsetKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharsetKeyboard.h; sourceTree = "<group>"; };
 		11699987229A8BAC005F09D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11699990229A8CBC005F09D7 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		11699991229A8CBC005F09D7 /* KeyboardInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardInstance.swift; sourceTree = "<group>"; };
+		11699995229A8CF6005F09D7 /* ButtonEnabler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonEnabler.swift; sourceTree = "<group>"; };
+		11699996229A8CF6005F09D7 /* LayoutCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutCalculator.swift; sourceTree = "<group>"; };
+		11699997229A8CF6005F09D7 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		1169999D229A8D20005F09D7 /* DeleteButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeleteButtonCell.xib; sourceTree = "<group>"; };
+		1169999E229A8D20005F09D7 /* CharButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharButtonCell.swift; sourceTree = "<group>"; };
+		1169999F229A8D20005F09D7 /* CharButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharButtonCell.xib; sourceTree = "<group>"; };
+		116999A0229A8D21005F09D7 /* ButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		116999A5229A8D30005F09D7 /* KeyboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		116999A6229A8D30005F09D7 /* Keyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
+		116999AA229A8D52005F09D7 /* KeyboardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardViewModel.swift; sourceTree = "<group>"; };
+		116999AB229A8D52005F09D7 /* CharButtonViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharButtonViewModel.swift; sourceTree = "<group>"; };
+		116999AC229A8D52005F09D7 /* DeleteButtonViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteButtonViewModel.swift; sourceTree = "<group>"; };
+		116999B2229A8E40005F09D7 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		116999B5229A8F21005F09D7 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		116999B6229A8F21005F09D7 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		116999BA229A90B9005F09D7 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116999B7229A8F21005F09D7 /* ReactiveSwift.framework in Frameworks */,
+				116999BB229A90B9005F09D7 /* ReactiveCocoa.framework in Frameworks */,
+				116999B8229A8F21005F09D7 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,6 +69,7 @@
 		11699979229A8BAC005F09D7 = {
 			isa = PBXGroup;
 			children = (
+				116999B9229A8F34005F09D7 /* Carthage */,
 				11699985229A8BAC005F09D7 /* CharsetKeyboard */,
 				11699984229A8BAC005F09D7 /* Products */,
 			);
@@ -47,9 +87,66 @@
 			isa = PBXGroup;
 			children = (
 				11699986229A8BAC005F09D7 /* CharsetKeyboard.h */,
+				11699990229A8CBC005F09D7 /* Keyboard.swift */,
+				11699991229A8CBC005F09D7 /* KeyboardInstance.swift */,
+				116999A9229A8D43005F09D7 /* ViewModels */,
+				1169999B229A8D06005F09D7 /* UI */,
+				11699994229A8CE3005F09D7 /* SupportLogic */,
 				11699987229A8BAC005F09D7 /* Info.plist */,
 			);
 			path = CharsetKeyboard;
+			sourceTree = "<group>";
+		};
+		11699994229A8CE3005F09D7 /* SupportLogic */ = {
+			isa = PBXGroup;
+			children = (
+				11699995229A8CF6005F09D7 /* ButtonEnabler.swift */,
+				11699997229A8CF6005F09D7 /* Common.swift */,
+				11699996229A8CF6005F09D7 /* LayoutCalculator.swift */,
+			);
+			path = SupportLogic;
+			sourceTree = "<group>";
+		};
+		1169999B229A8D06005F09D7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				116999A6229A8D30005F09D7 /* Keyboard.xib */,
+				116999A5229A8D30005F09D7 /* KeyboardView.swift */,
+				1169999C229A8D0D005F09D7 /* Cells */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1169999C229A8D0D005F09D7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				116999A0229A8D21005F09D7 /* ButtonCell.swift */,
+				1169999E229A8D20005F09D7 /* CharButtonCell.swift */,
+				1169999F229A8D20005F09D7 /* CharButtonCell.xib */,
+				1169999D229A8D20005F09D7 /* DeleteButtonCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		116999A9229A8D43005F09D7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				116999AB229A8D52005F09D7 /* CharButtonViewModel.swift */,
+				116999AC229A8D52005F09D7 /* DeleteButtonViewModel.swift */,
+				116999AA229A8D52005F09D7 /* KeyboardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		116999B9229A8F34005F09D7 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				116999B2229A8E40005F09D7 /* Cartfile */,
+				116999BA229A90B9005F09D7 /* ReactiveCocoa.framework */,
+				116999B5229A8F21005F09D7 /* ReactiveSwift.framework */,
+				116999B6229A8F21005F09D7 /* Result.framework */,
+			);
+			name = Carthage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +217,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116999A3229A8D21005F09D7 /* CharButtonCell.xib in Resources */,
+				116999A1229A8D21005F09D7 /* DeleteButtonCell.xib in Resources */,
+				116999B3229A8E40005F09D7 /* Cartfile in Resources */,
+				116999A8229A8D30005F09D7 /* Keyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +231,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11699992229A8CBC005F09D7 /* Keyboard.swift in Sources */,
+				116999A7229A8D30005F09D7 /* KeyboardView.swift in Sources */,
+				116999A2229A8D21005F09D7 /* CharButtonCell.swift in Sources */,
+				11699999229A8CF6005F09D7 /* LayoutCalculator.swift in Sources */,
+				11699998229A8CF6005F09D7 /* ButtonEnabler.swift in Sources */,
+				116999AD229A8D52005F09D7 /* KeyboardViewModel.swift in Sources */,
+				1169999A229A8CF6005F09D7 /* Common.swift in Sources */,
+				116999AF229A8D52005F09D7 /* DeleteButtonViewModel.swift in Sources */,
+				11699993229A8CBC005F09D7 /* KeyboardInstance.swift in Sources */,
+				116999AE229A8D52005F09D7 /* CharButtonViewModel.swift in Sources */,
+				116999A4229A8D21005F09D7 /* ButtonCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +380,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CharsetKeyboard/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,6 +409,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CharsetKeyboard/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
